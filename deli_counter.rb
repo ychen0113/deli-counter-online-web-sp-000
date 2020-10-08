@@ -15,7 +15,7 @@ end
 def take_a_number(deli, name)
   if deli.length == 0 
     deli << name 
-    puts "Welcome, #{name}. You are number #{deli.find_index}"
+    puts "Welcome, #{name}. You are number #{deli.index(name) + 1} in line."
     
   end
 end 
