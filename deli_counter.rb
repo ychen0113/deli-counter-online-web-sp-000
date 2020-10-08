@@ -15,10 +15,9 @@ end
 def take_a_number(deli, name)
   if deli.length == 0 
     deli << name 
-    puts "Welcome, #{name}. You are number #{deli.index(name) + 1} in line."
   else
     names = name.split(" ")
     names.each {|x| deli << x}
-    puts "Welcome, #{name}. You are number #{deli.index(name) + 1} in line."
   end
+  puts "Welcome, #{name}. You are number #{deli.index(name) + 1} in line."
 end 
