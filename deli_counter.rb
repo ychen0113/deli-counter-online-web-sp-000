@@ -8,6 +8,6 @@ def line(deli)
   else 
     x = []
     deli.each_with_index {|a, index| x << " #{index + 1}. #{a}"}
-      puts "The line is currently:#{x.join}."
+      return "The line is currently:#{x.join}."
   end
 end 
