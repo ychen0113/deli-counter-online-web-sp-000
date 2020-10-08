@@ -7,7 +7,7 @@ def line(deli)
     puts "The line is currently empty."
   else 
     x = []
-    x = deli.each_with_index {|a, index| puts "#{index + 1}. #{a}"}
+    deli.each_with_index {|a, index| x << puts "#{index + 1}. #{a}"}
       puts "The line is currently: #{x.join}."
   end
 end 
