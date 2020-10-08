@@ -21,3 +21,12 @@ def take_a_number(deli, name)
   end
   puts "Welcome, #{name}. You are number #{deli.index(name) + 1} in line."
 end 
+
+def now_serving(deli)
+if deli.length == 0 
+  puts "The line is empty."
+else while deli.length > 1
+  puts "Now serving #{deli[0]}"
+  
+end 
+end 
