@@ -28,5 +28,6 @@ if deli.length == 0
 else while deli.length > 1
   puts "Now serving #{deli[0]}"
   deli.shift
+end
 end 
 end 
