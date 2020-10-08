@@ -17,7 +17,8 @@ def take_a_number(deli, name)
     deli << name 
     puts "Welcome, #{name}. You are number #{deli.index(name) + 1} in line."
   else
-    
+    names = name.split(" ")
+    names.each {}
     
   end
 end 
