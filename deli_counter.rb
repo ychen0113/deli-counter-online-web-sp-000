@@ -26,8 +26,7 @@ def now_serving(deli)
 if deli.length == 0 
   puts "There is nobody waiting to be served!"
 else while deli.length > 1
-  puts "Currently serving #{deli[0]}."
-  deli.shift
+  deli.each {|x| puts "Currently serving #{x}." deli.shift}
 end
 end 
 end 
