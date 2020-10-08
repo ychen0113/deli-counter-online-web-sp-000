@@ -30,6 +30,5 @@ else
     puts "Currently serving #{x}." 
     deli.shift
   end 
-end
 end 
 end 
