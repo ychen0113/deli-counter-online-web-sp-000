@@ -30,4 +30,3 @@ else
     deli.shift
   end 
 end 
-end 
