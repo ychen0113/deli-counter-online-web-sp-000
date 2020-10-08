@@ -11,3 +11,7 @@ def line(deli)
       puts "The line is currently:#{x.join}"
   end
 end 
+
+def take_a_number(deli)
+  deli << 
+end 
