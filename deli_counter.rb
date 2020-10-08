@@ -13,5 +13,5 @@ def line(deli)
 end 
 
 def take_a_number(deli)
-  deli << 
+  deli << gets
 end 
