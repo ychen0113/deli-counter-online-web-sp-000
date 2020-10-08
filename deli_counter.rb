@@ -19,6 +19,6 @@ def take_a_number(deli, name)
   else
     names = name.split(" ")
     names.each {|x| deli << x}
-    puts "Welcome, #{name}. You are number #{deli.index(name) + 1} in line."
+    puts "Welcome, #{names[-1]}. You are number #{names.index(name) + 1} in line."
   end
 end 
