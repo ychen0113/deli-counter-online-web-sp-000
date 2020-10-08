@@ -12,6 +12,6 @@ def line(deli)
   end
 end 
 
-def take_a_number(deli)
-  deli << gets
+def take_a_number(deli, name)
+  deli << name
 end 
